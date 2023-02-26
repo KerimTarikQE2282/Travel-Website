@@ -13,7 +13,7 @@ const WelcomeBody = () => {
     };
   return (
     <div style={myStyle}>
-      <h1 className='WelcomeText'>Welcome to Ethiopia </h1>
+      <h1 className='WelcomeText'>Welcome to Chilalo tour and travel </h1>
     </div>
   )
 }
