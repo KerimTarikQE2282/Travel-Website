@@ -1,12 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import personIcon from '../Images/pngegg (1).png'
+import Logo from '../Images/Asset 1.png'
 
 
 const NavBar = () => {
   return (
    <header>
-    <h1 className='Logo'>logo</h1>
+    <img src={Logo} className='Logo'></img>
     <nav className='navbar'>
         <ul className='nav_links'>
          <li><Link to={'/BookNow'}> Book now</Link> </li>
@@ -18,7 +19,7 @@ const NavBar = () => {
           </li>
          <li><a>About us </a> 
          <ul>
-          <li><Link to={'/AboutTheOrganization'}>About the organization</Link></li>
+          <li><Link to={'/AboutTheOrganization'} style={{textdecoration: "none"}} >About the organization</Link></li>
           <li><Link to={'/AboutTheFounder'}>About the founder</Link></li>
          </ul>
          </li>
@@ -31,7 +32,7 @@ const NavBar = () => {
          </li>
         </ul>
     </nav>
-    <a>login</a>
+    <a><img src={personIcon} className='personIcon'></img></a>
    </header>
  
   )

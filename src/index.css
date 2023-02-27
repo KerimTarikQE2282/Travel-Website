@@ -19,9 +19,7 @@ header{
   font-family: 'Montserrat', sans-serif;
   
 }
-a{
-  
-}
+
 header .logo{
   font-weight: bolder;
   font-size: 25px;
@@ -31,21 +29,32 @@ header .navbar ul {
 
   list-style: none;
   cursor: pointer;
+  text-decoration: none;
+    text-decoration: none;
   
+}
+.Logo{
+  width: 100px;
+  height: 80px;
+  position: relative;
+  right: 80px;
 }
 header .navbar ul li{
   position: relative;
 float: left;
+text-decoration: none;
 }
 header .navbar ul li{
 font-size: 20px;
 padding: 20px;
 color: #333;
 display: block;
+text-decoration: none;
 }
 header .navbar ul li:hover{
   background: #333;
   color: #fff;
+  text-decoration: none;
 }
 header .navbar ul li ul{
   position: absolute;
@@ -62,7 +71,16 @@ header .navbar ul li ul li{
 header .navbar ul li:hover > ul{
   display: initial;
 }
-
+.personIcon{
+  width: 40px;
+  height:40px;
+  position: relative;
+  left:80px
+  
+}
+.personIcon:hover{
+ cursor: pointer;
+}
 @media (max-width:991px) {
   header{
     padding: 20px;
