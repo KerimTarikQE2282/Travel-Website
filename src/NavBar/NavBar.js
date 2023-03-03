@@ -7,7 +7,7 @@ import Logo from '../Images/Asset 1.png'
 const NavBar = () => {
   return (
    <header>
-    <img src={Logo} className='Logo'></img>
+  <img src={Logo} className='Logo'></img>
     <nav className='navbar'>
         <ul className='nav_links'>
          <li><Link to={'/BookNow'}> Book now</Link> </li>
@@ -32,7 +32,7 @@ const NavBar = () => {
          </li>
         </ul>
     </nav>
-    <a><img src={personIcon} className='personIcon'></img></a>
+     <Link to={'/LoginForm'}> <img src={personIcon} className='personIcon'></img></Link>
    </header>
  
   )
